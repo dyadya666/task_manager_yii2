@@ -123,4 +123,10 @@ class SiteController extends Controller
     {
         return $this->render('about');
     }
+    
+    /*READ operation for 'project'*/
+    public function actionReadProject(){
+        
+    }
+    
 }
